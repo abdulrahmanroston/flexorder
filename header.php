@@ -4,5 +4,5 @@
         <meta charset="<?php bloginfo('charset'); ?>">
         <title><?php bloginfo('name'); ?></title >
         <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-        <?php wp-head(); ?>
+        <?php wp_head(); ?>
     </head>
