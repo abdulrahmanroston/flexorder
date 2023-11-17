@@ -1,5 +1,8 @@
 <?php get_header(); ?> 
 
-<?php get_search_form(); ?>
+
+<?php echo get_template_directory_uri() ?> 
+
+
 
 <?php get_footer() ; ?>
