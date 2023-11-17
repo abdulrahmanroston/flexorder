@@ -1,10 +1,5 @@
-<?php 
-// This For Test 
+<?php get_header(); ?> 
 
-get_header();
+<?php get_search_form(); ?>
 
-get_search_form();
-
-get_footer() ;
-
-?> 
+<?php get_footer() ; ?>
