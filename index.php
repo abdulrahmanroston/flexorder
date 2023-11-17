@@ -1,7 +1,7 @@
 <?php 
 get_header();
 
-// for test
+// for test 1
 get_search_form();
 get_footer();
 
