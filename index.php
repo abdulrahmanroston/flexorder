@@ -1,6 +1,8 @@
 <?php 
 get_header();
-get_footer();
+
+// for test
 get_search_form();
+get_footer();
 
 ?> 
