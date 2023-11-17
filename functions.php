@@ -13,5 +13,5 @@ function add_script () {
 }
 
 
-add_action('function add_scripts', 'add_style') ;
-add_action('function add_scripts', 'add_script') ;
+add_action('wp_enqueue_scripts', 'add_style') ;
+add_action('wp_enqueue_scripts', 'add_script') ;
