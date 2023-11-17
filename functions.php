@@ -2,13 +2,13 @@
 
 function add_style () {
 
-    wp_enqueue_style('custem', echo get_template_directory_uri() . '/css/custem.css'; );
+    wp_enqueue_style('custem', get_template_directory_uri() . '/css/custem.css'; );
 
 }
 
 function add_script () {
 
-    wp_enqueue_script('custem', echo get_template_directory_uri() . '/js/custem.js', array() ,false ,true );
+    wp_enqueue_script('custem', get_template_directory_uri() . '/js/custem.js', array() ,false ,true );
 
 }
 
